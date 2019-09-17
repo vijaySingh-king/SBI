@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+	<bean id="cv" class="com.nt.beans.CheckVoting" init-method="check" destroy-method="myDestroy">
+	<property name="name" value="qamar"/>
+	<property name="addrs" value="hyd"/>
+	<property name="age" value="13"/>
+	</bean>
+</beans>
